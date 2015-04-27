@@ -35,8 +35,8 @@ Install
 ---
 
 ```bash
-$ cd <path_to_your_djangoproject> // example: ~/mysite/
-$ git submodule add git@github.com:NCHUSG/iltClient_django-ver..git ilt_client
+$ cd <path_to_your_djangoproject> # example: ~/mysite/
+$ git submodule add https://github.com/NCHUSG/iltClient_django-ver..git ilt_client
 ```
 
 2. Edit urls.py
