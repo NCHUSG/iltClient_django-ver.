@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sorry, get data failed</title>
+</head>
+<body>
+	<h1>Failed!</h1>
+	<p>There has error when get user data from ILT</p>
+	<p>Maybe you setting has some trouble</p>
+	<p>Your setting below:</p>
+	{% for key, value in config.items %}
+		<li>{{ key }}:{{ value }}</li>
+	{% endfor %}
+</body>
+</html>
